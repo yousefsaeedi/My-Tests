@@ -1,4 +1,4 @@
-import tkinter
-
-window = Tk()
-window.mainloop()
+import random
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+myRandomNumber = random.choice(numbers)
+print(myRandomNumber)
